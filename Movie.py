@@ -32,7 +32,7 @@ for i in range(0, 1000):
 	review = review.lower() 
 	
 	# split to array(default delimiter is " ") 
-	review = review.split() 
+	review = review.split()     
 	
 	# creating PorterStemmer object to 
 	# take main stem of each word 
